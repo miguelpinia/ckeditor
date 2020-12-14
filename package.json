@@ -1,10 +1,9 @@
 {
-  "name": "ckeditor5-custom-build",
+  "name": "ckeditor-prepaenlinea",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
   "devDependencies": {
     "@ckeditor/ckeditor5-autoformat": "^23.1.0",
     "@ckeditor/ckeditor5-basic-styles": "^23.1.0",
@@ -36,5 +35,20 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelpinia/ckeditor.git"
+  },
+  "keywords": [
+    "ckeditor",
+    "custom",
+    "build"
+  ],
+  "bugs": {
+    "url": "https://github.com/miguelpinia/ckeditor/issues"
+  },
+  "homepage": "https://github.com/miguelpinia/ckeditor#readme"
 }
